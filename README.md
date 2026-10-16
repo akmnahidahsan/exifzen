@@ -1,3 +1,5 @@
+<!--
+
 # ExifZen
 
 A responsive, browser-first image metadata utility built with React and Vite. Existing dark/gold UI and local-file workflow are retained.
@@ -35,3 +37,4 @@ Build with `npm run build`.
 ## Verification and limitations
 
 After editing or clean export, ExifZen scans the generated Blob again and compares the metadata exposed by its readers. A field missing from the output scan is reported as not detected, not proof that every metadata block was removed. For sensitive use, verify with an independent metadata utility too. Canvas re-encoding can change image quality, color/ICC profile, dimensions/orientation behavior, animation, transparency, and format. JPEG EXIF editing preserves compressed pixel data but does not guarantee that all non-EXIF metadata blocks are removed. Per-field removal, comprehensive IPTC/XMP writing, GPS-only removal, and HEIC/HEIF/TIFF rewriting are not implemented in this browser-only version.
+-->
